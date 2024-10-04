@@ -38,17 +38,4 @@ The ATM Simulator System is a Java-based application simulating the functionalit
    - Update the connection URL, username, and password to match your local MySQL setup.
    ```java
    c = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/bankmanagementsystem", "root", "your_password");
-ATM-Simulator-System/
-│
-├── src/
-│   └── ASimulatorSystem/
-│       ├── Conn.java        # Manages database connection
-│       ├── Login.java       # Manages the login functionality
-│       ├── Signup.java      # Handles user registration
-│       ├── FastCash.java    # Manages fast cash withdrawals
-│       ├── Deposit.java     # Manages deposit transactions
-│       ├── Withdrawl.java   # Manages withdrawal transactions
-│       ├── MiniStatement.java # Displays recent transactions
-│       └── icons/           # Contains images used in the GUI
-├── README.md                # Project description and instructions
-└── mysql-connector-j-8.4.0.jar # MySQL JDBC driver
+
